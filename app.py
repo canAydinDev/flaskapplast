@@ -9,7 +9,7 @@ import numpy as np
 
 app = Flask(__name__)
 
-# Dosya yükleme klasörü
+
 UPLOAD_FOLDER = 'uploads'
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
