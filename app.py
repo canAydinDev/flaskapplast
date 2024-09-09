@@ -23,7 +23,7 @@ def home():
     prediction = request.args.get("prediction")
     return render_template("home.html", prediction=prediction)
 
-# Tahmin yapma
+
 @app.route('/predict', methods=['POST'])
 def predict():
     # Dosya yükleme işlemi
